@@ -1,6 +1,5 @@
 # Summarizer
 
-<p align="center"><img  width="150" height="150" src="https://github.com/Arkajit-techie/summariser_api/blob/main/Asset%201@2x.png?raw=true"></p>
 
 Certainly, here's the revised description with the project name "MessageMeld-Multichat-Synopsis-Generator":
 

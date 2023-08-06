@@ -2,25 +2,35 @@
 
 <p align="center"><img  width="150" height="150" src="https://github.com/Arkajit-techie/summariser_api/blob/main/Asset%201@2x.png?raw=true"></p>
 
-People get frustrated when reading longer text messages or group chats and would most probably skip it and go to the recent discussion which may relate to the texts sent earlier.
-Presenting to you, Summarizer. With the help of this application, one can easily get the summary of long text conversations in the form of a short paragraph . User needs to upload the transcript of the messages wait for the magic to happen. Once a user uploads the transcript , no matter how long it is, it will be converted to a short, clear and to the point paragraph. Now one can save time, read less and still stay updated.
-## Frameworks
-  -> Flask
-  -> Python
-  -> Transformers (NLP pretrained Model for making the summary)
+Certainly, here's the revised description with the project name "MessageMeld-Multichat-Synopsis-Generator":
 
-## Steps
+## Project: MessageMeld-Multichat-Synopsis-Generator
 
-1) Generate the transcript of the chats in the form of .txt file
-2) drag and drop or upload the file
-3) Wait for few seconds, and you can see the resulting summary.
+### Overview
+The **MessageMeld-Multichat-Synopsis-Generator** is an innovative solution designed to streamline the process of digesting lengthy textual conversations from various messaging platforms. Leveraging the power of modern Natural Language Processing (NLP) techniques, this project aims to alleviate the challenge of information overload by providing concise and coherent summaries of conversations spanning emails, WhatsApp chats, and Instagram messages.
 
-## Other Features
+### Methodology
 
-### Bulleter
+#### Seq2Seq Model and LSTM Layers
+The project harnesses the capabilities of Sequence-to-Sequence (Seq2Seq) models, coupled with Long Short-Term Memory (LSTM) layers, to generate coherent and contextually accurate summaries. The Seq2Seq architecture, known for its effectiveness in tasks like language translation and text generation, serves as the foundation for converting lengthy conversations into concise summaries.
 
-Provide us with the text messages in the form of a file and we will only show you the important messages according to their relevance. This feature is quite dynamic, dataset can be made for different types of clients. Rightnow the dataset focuses important event notifications of VIT. 
+The LSTM layers play a pivotal role in maintaining sequential dependencies within the text, ensuring that the generated summaries maintain the essence of the original content. By modeling long-range dependencies and context, the LSTM layers enhance the overall quality of the summarization process.
 
-### Custom
+#### HuggingFace Pre-trained Models
+In addition to the Seq2Seq approach, the project incorporates the power of pre-trained transformer models from HuggingFace. These state-of-the-art models, meticulously fine-tuned on massive amounts of text data, are capable of understanding complex linguistic nuances and generating coherent abstractions.
 
-Provide us with the text messages in the form of a file and also give us the keywords and will only show the relevant messages according to keywords provided by you
+By employing HuggingFace's pre-trained models, the project significantly accelerates the development process, leveraging the collective intelligence embedded in the model's weights. The models not only generate accurate summaries but also showcase the potential of transfer learning in the NLP domain.
+
+### Use Case and Impact
+The **MessageMeld-Multichat-Synopsis-Generator** was conceived to address a tangible need – simplifying the process of reviewing and comprehending lengthy textual exchanges. A specific use case emerges within academic and professional settings, where individuals frequently encounter lengthy emails, chats, and messages. For instance, the project originated from the frustration of a professor who regularly received lengthy emails from students expressing interest in research opportunities.
+
+By adopting the summarization output of this project, stakeholders can now swiftly grasp the key points and intentions of lengthy conversations. This not only saves time but also enhances productivity and ensures that critical information is not lost in the midst of verbosity.
+
+### Conclusion
+The **MessageMeld-Multichat-Synopsis-Generator** stands as a testament to the transformative potential of modern NLP techniques. By combining the prowess of Seq2Seq models, LSTM layers, and HuggingFace's pre-trained transformers, the project exemplifies a streamlined solution to the pervasive challenge of information overload in our communication-driven world. Through its effective summarization capabilities, this project brings efficiency, clarity, and impactful insights to the realm of textual conversations across diverse platforms.
+
+For more details and code implementation, please refer to the GitHub repository of the project.
+
+---
+
+Feel free to utilize this revised content for your GitHub repository or any other documentation related to your project.

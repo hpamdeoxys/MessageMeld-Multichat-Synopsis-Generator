@@ -1,0 +1,91 @@
+.form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.output {
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 70px;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: justify;
+  /* border: solid 1px black; */
+}
+
+h4 {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  margin-top: 50px;
+  color: rgb(134, 133, 133);
+  text-align: center;
+}
+
+.custom-file-input {
+  color: transparent;
+  width: 250px;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: "Or select a file";
+  margin-left: 56px;
+  color: black;
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active {
+  outline: 0;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+body {
+  padding: 20px;
+}
+
+.keyword-input {
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid rgb(88, 88, 88);
+    outline: none;
+    width: 300px;
+}
+
+.send-btn{
+    border: none;
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(110, 188, 219);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 300ms;
+}
+
+.send-btn:hover {
+    background-color: rgb(77, 181, 223);
+    transition: 300ms;
+}
